@@ -1,0 +1,18 @@
+[package]
+name = "vinayman_portfolio"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "vinayman"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+console_error_panic_hook = "0.1.7"
+gloo-net = "0.6.0"
+leptos = { version = "0.7.8", features = ["csr"] }
+leptos_meta = "0.7.8"
+leptos_router = "0.7.8"
+markdown = "1.0.0"
+pulldown-cmark = "0.13.0"
+wasm-bindgen-futures = "0.4"
