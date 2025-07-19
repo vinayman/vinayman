@@ -23,6 +23,11 @@ const PROJECTS: &[&Project] = &[
         url: "https://github.com/vinayman/elasticsearch_titles_search",
     },
     &Project {
+        name: "TypeScript web app for tracking your kick-ups through your webcam",
+        description: "A TypeScript web app leveraging Tensorflow to track your kick-ups and body movements through your webcam, using MoveNet for pose detection and Lite MobileNet V2 for object detection.",
+        url: "https://github.com/vinayman/kick-ups",
+    },
+    &Project {
         name: "A Memecoin Tracker developed for eunice.ai (my current employer)",
         description: "A memecoin tracker developed for eunice.ai. It allows users to track some quantitative metrics of different memecoins and compare them with each other.",
         url: "https://tokenwhisperer.xyz",
@@ -35,7 +40,7 @@ pub fn Projects() -> impl IntoView {
         <div class="flex flex-col w-full items-center">
             <div class="flex flex-col items-start justify-start w-full px-12 md:px-0 md:w-2/5 md:max-w-2/5 break-all space-y-6">
                 <h1 class="text-3xl font-bold">Projects</h1>
-                <ul class="space-y-6">
+                <ul class="space-y-6 break-normal">
                     {PROJECTS
                         .iter()
                         .map(|project| {

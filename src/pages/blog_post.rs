@@ -42,7 +42,7 @@ pub fn BlogPost() -> impl IntoView {
             <div class="flex flex-col items-start justify-start w-full px-12 md:px-0 md:w-2/5 md:max-w-2/5 break-all space-y-6">
                 <h1 class="text-3xl font-bold">Blog</h1>
                 <div
-                    class="prose prose-blog mx-auto md:prose-lg prose-pre:m-0 prose-pre:rounded-none"
+                    class="prose prose-blog mx-auto md:prose-lg prose-pre:m-0 prose-pre:rounded-none break-normal"
                     inner_html=move || html_content.get()
                 ></div>
             </div>
