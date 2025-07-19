@@ -63,7 +63,7 @@ jobs:
       #   with:
       #     folder: dist
 
-      Deploy with Github Static Pages
+      # Deploy with Github Static Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
