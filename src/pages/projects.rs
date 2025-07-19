@@ -28,9 +28,9 @@ const PROJECTS: &[&Project] = &[
         url: "https://github.com/vinayman/kick-ups",
     },
     &Project {
-        name: "A Memecoin Tracker developed for eunice.ai (my current employer)",
-        description: "A memecoin tracker developed for eunice.ai. It allows users to track some quantitative metrics of different memecoins and compare them with each other.",
-        url: "https://tokenwhisperer.xyz",
+        name: "My personal portfolio website",
+        description: "A personal portfolio website written in Rust using Leptos.",
+        url: "https://github.com/vinayman/vinayman",
     },
 ];
 
